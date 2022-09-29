@@ -90,7 +90,6 @@ public class RemarkCommand extends Command {
 
         // state check
         RemarkCommand e = (RemarkCommand) other;
-        return index.equals(e.index)
-                && remark.equals(e.remark);
+        return index.equals(e.index) && remark.equals(e.remark);
     }
 }
