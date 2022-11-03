@@ -206,6 +206,10 @@ Examples:
 
 Shows a list of valid commands or a help page on a particular command.
 
+* If help is followed by invalid command, it will be ignored.<br>
+e.g. `help randomCommand` will be read a `help` command.
+
+
 Format: `help [COMMAND]`
 
 Examples:
